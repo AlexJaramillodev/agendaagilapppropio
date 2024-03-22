@@ -1,7 +1,8 @@
 [
-
     {
       "nombreUsuario": "Laura Camila Hernández",
+      "documento":"123456789",
+      "contraseña":"admin123",
       "medicoDeFamilia": "Dra. María López",
       "grupoDeIngreso": "Grupo A",
       "ips": "IPS Salud y Bienestar",
@@ -25,6 +26,8 @@
     },
     {
       "nombreUsuario": "Carlos Andrés Vélez",
+      "documento":"123456789",
+      "contraseña":"admin124",
       "medicoDeFamilia": "Dr. Juan Esteban Correa",
       "grupoDeIngreso": "Grupo B",
       "ips": "IPS Integral Salud",
@@ -43,6 +46,8 @@
     },
     {
       "nombreUsuario": "Sofía Morales",
+      "documento":"123456789",
+      "contraseña":"admin125",
       "medicoDeFamilia": "Dra. Lina Marcela Ruiz",
       "grupoDeIngreso": "Grupo C",
       "ips": "IPS Vida Plena",
@@ -56,6 +61,8 @@
     },
     {
       "nombreUsuario": "Miguel Ángel Torres",
+      "documento":"123456789",
+      "contraseña":"admin126",
       "medicoDeFamilia": "Dr. Carlos Fernández",
       "grupoDeIngreso": "Grupo D",
       "ips": "IPS Mi Salud",
@@ -74,6 +81,8 @@
     },
     {
       "nombreUsuario": "Ana María Gómez",
+      "documento":"123456789",
+      "contraseña":"admin127",
       "medicoDeFamilia": "Dra. Susana Pineda",
       "grupoDeIngreso": "Grupo E",
       "ips": "IPS Salud Integral",
@@ -92,6 +101,8 @@
     },
     {
       "nombreUsuario": "Diego Fernando Ruiz",
+      "documento":"123456789",
+      "contraseña":"admin127",
       "medicoDeFamilia": "Dr. Alejandro Mora",
       "grupoDeIngreso": "Grupo F",
       "ips": "IPS Bienestar Total",
@@ -105,6 +116,8 @@
     },
     {
       "nombreUsuario": "Patricia Elena Salazar",
+      "documento":"123456789",
+      "contraseña":"admin128",
       "medicoDeFamilia": "Dra. Carolina Mejía",
       "grupoDeIngreso": "Grupo G",
       "ips": "IPS Salud Para Todos",
@@ -128,6 +141,8 @@
     },
     {
       "nombreUsuario": "Jorge Eduardo López",
+      "documento":"123456789",
+      "contraseña":"admin1287",
       "medicoDeFamilia": "Dr. Manuel González",
       "grupoDeIngreso": "Grupo H",
       "ips": "IPS Horizonte Saludable",
@@ -141,6 +156,8 @@
     },
     {
       "nombreUsuario": "Felipe Andrés Rojas",
+      "documento":"123456789",
+      "contraseña":"admin1225",
       "medicoDeFamilia": "Dra. Elena Martínez",
       "grupoDeIngreso": "Grupo D",
       "ips": "Centro Médico Del Valle",
@@ -164,6 +181,8 @@
     },
     {
       "nombreUsuario": "Carolina Jiménez Silva",
+      "documento":"123456789",
+      "contraseña":"admin12387",
       "medicoDeFamilia": "Dr. Álvaro Uribe",
       "grupoDeIngreso": "Grupo E",
       "ips": "Salud Integral IPS",
@@ -187,6 +206,8 @@
     },
     {
       "nombreUsuario": "María Isabel Cárdenas",
+      "documento":"123456789",
+      "contraseña":"admin1278",
       "medicoDeFamilia": "Dra. Laura Ramírez",
       "grupoDeIngreso": "Grupo I",
       "ips": "IPS Vida y Salud",
@@ -205,6 +226,8 @@
     },
     {
     "nombreUsuario": "Isabella María Duarte",
+    "documento":"12345678947",
+      "contraseña":"admin123",
     "medicoDeFamilia": "Dra. Sofía Carrillo",
     "grupoDeIngreso": "Grupo C",
     "ips": "IPS Nueva Esperanza",
@@ -228,6 +251,8 @@
   },
     {
       "nombreUsuario": "Oscar Mauricio Navarro",
+      "documento":"123456789478",
+      "contraseña":"admin123",
       "medicoDeFamilia": "Dr. Esteban Quito",
       "grupoDeIngreso": "Grupo J",
       "ips": "IPS Salud Segura",
