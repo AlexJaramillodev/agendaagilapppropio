@@ -4,11 +4,19 @@ import { useState } from "react"
 
 export function Formulario (){
 
-    const [verCedula, modificarCedula] = useState("")
-    const [verContraseña, modificarContraseña] = useState("")
+    //una almacena, modifica
+    //la otra para verlo
 
-    function procesarFormulario (){
+    const [verCedula, guardarCedula] = useState("")
+    const [verContraseña, guardarContraseña] = useState("")
 
+
+
+    function procesarFormulario (evento){
+
+        //que hago si le hacen clic al boton
+        evento.preventDefault()
+        console.log("le hicieron click al boton del formulario")
         
     }
 
@@ -19,7 +27,7 @@ export function Formulario (){
                  <div className="row justify-content-center text-center">
                     <div className="col-12 col-md-6">
                         <img className="img-fluid" src="../../src/assets/sura.png" alt="logo sura" />
-                        <form className="border rounded p-4 mb-5">
+                        <form className="border rounded p-4 mb-5" onSubmit={procesarFormulario} >
                             <h2>Controla tu salud</h2>
                                 <div className="input-group mb-3 mt-5">
                                     <span className="input-group-text" id="basic-addon1"><i className="bi bi-person-vcard-fill"></i></span>
@@ -28,6 +36,7 @@ export function Formulario (){
                                         className="form-control" 
                                         placeholder="Numero de Cedula"
                                         id="identificacion"
+                                        onChange={function(evento){guardarCedula(evento.target.value)}}
                                         />
                                 </div>
 
@@ -38,6 +47,7 @@ export function Formulario (){
                                         className="form-control" 
                                         placeholder="Contraseña"
                                         id="contraseña"
+                                        onChange={function(evento){guardarContraseña(evento.target.value)}}
                                         />
                                 </div>
 
