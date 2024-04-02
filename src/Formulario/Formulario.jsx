@@ -1,4 +1,5 @@
 import "./Formulario.css"
+import { useNavigate } from "react-router-dom"
 
 import { useState } from "react"
 
@@ -10,14 +11,17 @@ export function Formulario (){
     const [verCedula, guardarCedula] = useState("")
     const [verContraseña, guardarContraseña] = useState("")
 
+    // para navegar entre componentes debo declara una variable que almacene el hook
 
+    let enrutador = useNavigate()
 
     function procesarFormulario (evento){
 
         //que hago si le hacen clic al boton
         evento.preventDefault()
-        console.log("le hicieron click al boton del formulario")
         
+        //voy a enrutar otro componenete(como lanzo un componente desde otro componenete) que renderice la otra pagina.
+        enrutador("/home")
     }
 
 

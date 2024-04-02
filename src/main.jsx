@@ -6,12 +6,15 @@ import 'bootstrap/dist/js/bootstrap.min.js'
 
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
-import { Home } from './Home/Home' 
-import { Formulario } from './Formulario/Formulario'
+import { Rutas } from './Rutas/Rutas'
+import { BrowserRouter } from 'react-router-dom'
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <Home></Home> */}
-    <Formulario></Formulario>
+      <BrowserRouter>
+        <Rutas></Rutas>
+      </BrowserRouter>
+
   </React.StrictMode>,
 )
